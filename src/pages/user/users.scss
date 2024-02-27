@@ -1,0 +1,83 @@
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th{
+    border: 1px solid #ddd;
+    padding: 17px;
+  }
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #007bff;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #C3EDC0;
+  }
+  
+  .table tr:hover {
+    background-color: #AAC8A7;
+  }
+  
+  .table th.col-1,
+  .table td.col-1 {
+    width: 10%;
+  }
+  
+  .table th.col-9,
+  .table td.col-9 {
+    width: 70%;
+  }
+  .user-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar-profile img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .btn-custom {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #2980b9;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .text-danger {
+    color: #e74c3c;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-md-3 {
+      text-align: center;
+    }
+  
+    .col-md-5 {
+      text-align: center;
+    }
+  }
+  

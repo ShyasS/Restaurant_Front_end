@@ -1,0 +1,22 @@
+.imgSize{
+height: 50px;
+width: auto;
+}
+table{
+    display: table;    
+    text-indent: initial;
+    border-spacing: 2px;
+    text-decoration: none;
+    margin: 50px;
+    margin-top: 100px;
+    color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:nth-child(3){
+    color: blue !important;
+}

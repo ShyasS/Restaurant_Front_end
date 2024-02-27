@@ -1,0 +1,66 @@
+.btn-custom {
+    background-color: #ffa500 !important;
+    border: none !important;
+  border-radius: 0 !important;
+  margin: 2px;
+    /* Add other styles as needed */
+  }
+  .address-container label {
+    text-align: left;
+    display: block;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  
+  .pagination li {
+    display: inline-block;
+    margin: 0 0px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    /* background-color: #b96c7b; */
+    color: white;
+    text-decoration: none !important;
+  }
+
+  .pagination li a{
+    color: #afafaf;
+    font-size:18px;
+  }
+  
+  .pagination li.active {
+    /* background-color: #b96c7b; */
+    color: #3c3b3b;
+  }
+  
+  .pagination li:hover {
+    background-color: #151414;
+    text-decoration: none !important;
+  }
+  
+  #CardBackIMg{
+    background-color: #908e8583;
+    color: white;
+  }
+
+  .ActiveOrders{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/Bg5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.MenuHeaderMain{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/Bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+

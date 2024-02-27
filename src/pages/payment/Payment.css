@@ -1,0 +1,18 @@
+#CardPMainImg{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/PerImg3.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CardPImg{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(108, 87, 87, 0.7)), url('../../assets/img/dark-gradient-background-with-copy-space_53876-99548.avif');;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CardBackIMg{
+    background-color: #c1bca183;
+    color: white;
+  }

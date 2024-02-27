@@ -1,0 +1,16 @@
+.ConfirmOrderMainImg{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/Bg4.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ConfrimOrderCard{
+    background-image: url('../../assets/img/dark-gradient-background-with-copy-space_53876-99548.avif');;
+    color: white
+}
+
+#CardBackIMg{
+    background-color: #c1bca183;
+    color: white;
+  }

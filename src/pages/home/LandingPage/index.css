@@ -1,0 +1,206 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.HomeMainFirst {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/img/backgroundimage1.jpg');
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  h1,h2,h3,h4,h5,h6,p{
+    font-family: serif;
+  }
+  p{
+    font-size:19px;
+  }
+  
+  .HomeImg1 {
+    position: absolute;
+    left: 1289px;
+    top: 250px;
+  }
+  
+  .HomeImg2 {
+    position: relative;
+    top: -320px;
+  }
+  
+  #HomeH1Tag {
+    font-family: 'Serif';
+    font-size: 60px;
+    padding-top: 90px;
+  }
+  
+  .HomeSecondMain {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(159, 159, 159, 0.7)),  url('../../../assets/img/HomeThirdMainImg.jpg');
+    color: white;
+    width: 100%;
+  }
+  
+  .HomeSecH2 {
+    font-family: serif;
+    font-size: 60px;
+  }
+  
+  .HomeThirdComp {
+    background-color: #080e16;
+    width: 100%;
+  }
+  
+  .HomeThirdH1 {
+    font-size: 60px;
+    margin-top: 60px;
+    font-family: serif;
+    font-weight: 200
+  }
+  
+  .HomeForthComp {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(159, 159, 159, 0.7)),  url('../../../assets/img/HomeThirdMainImg.jpg');
+    /* height: 50vh; */
+    color:white;
+    width: 100%;
+  }
+  
+  #HomeFourthInput {
+    background-color: transparent;
+    border-color: black;
+    outline: none;
+  }
+  
+  .FooterComp {
+    background-color: #0e1927;
+    /* height: 45vh; */
+    width: 100%;
+  }
+  .FooterHR1{
+        color: #c6ac83;
+       margin-top: 100px;
+  }
+  .FooterMainRow{
+   color: white;
+   margin-left:100px;
+  }
+  #FooterH3{
+     color:  #c6ac83;
+      font-family: serif;
+      padding-top: 100px; 
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (min-width:320px) and (max-width:600px) {
+    .HomeMainFirst {
+      height: 130vh;
+    }
+  
+    .HomeImg2 {
+      display: none;
+    }
+  
+    #HomeH1Tag {
+      margin-top: 80px;
+    }
+  
+    .HomeImg1 {
+      display: none;
+    }
+  
+    .HomeSecondMain {
+
+    }
+  
+    .HomeSecondImg {
+      margin-top: -80px;
+    }
+  
+    .HomeSecH1 {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .HomeSecH2 {
+      font-size: 24px;
+    }
+  
+    .HomeThirdHR{
+      width:250px;
+    }
+  
+    .HomeThirdH1 {
+      font-size: 30px;
+    }
+  
+    #HomeThirdImg {
+      margin-left: -20px;
+    }
+  
+    /* .HomeForthComp {
+      height: 80vh;
+    } */
+    #HomeFourthInput{
+      margin-left:30px;
+      width:260px;
+    }
+    /* .FooterComp{
+      height:190vh;
+    } */
+    .FooterMainRow{
+      margin-left: 0px;
+    }
+    #FooterH3{
+      margin-left:60px;
+      padding-top:60px;
+    }
+    #FooterOpenPara{
+      margin-left:50px;
+    }
+  }
+
+
+  @media screen and (min-width:600px) and (max-width:767px){
+    .HomeImg2 {
+      display: none;
+    }
+    .HomeImg1 {
+      display: none;
+    }
+  }
+
+
+  @media screen and (min-width:768px) and (max-width:1440px) {
+    .HomeImg2 {
+      display: none;
+    }
+    .HomeImg1 {
+      display: none;
+    }
+  
+  }
+  
+
+  @media screen and (min-width:1600px){
+    .HomeImg2 {
+      display: none;
+    }
+    .HomeImg1 {
+      display: none;
+    }
+  }

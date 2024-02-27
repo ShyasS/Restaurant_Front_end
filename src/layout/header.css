@@ -1,0 +1,11 @@
+.logout-login-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push the buttons to the right */
+}
+
+@media (max-width: 991.98px) {
+  .logout-login-buttons {
+    margin-left: 0; /* Reset margin on screens smaller than medium */
+  }
+}

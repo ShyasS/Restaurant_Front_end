@@ -1,0 +1,22 @@
+
+
+.my-global-button {
+  /* Your common button styles go here */
+  background-color: #3a7975 !important;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-global-button:hover {
+  /* Styles for the button on hover */
+  background-color: #3a7975;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: serif;
+}
+p{
+  font-size:19px;
+}

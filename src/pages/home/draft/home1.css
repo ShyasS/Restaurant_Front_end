@@ -1,0 +1,33 @@
+
+.ProductImg1{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../../assets/img/bg-menu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:40vh;
+    width:100%;
+}
+.Product2Comp{
+   background-color: #0e1927;
+   text-align: center;
+   color: white;
+}
+#Product2H3{
+    font-family: 'CormorantInfant';
+    color:' #c6ac83';
+}
+.Product3Comp{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/img/MenuListBgImg.jpg');
+    /* height:100vh; */
+    margin-top:-20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ShoppingCart{
+    position: sticky;
+    top:0;
+}
+
+
+

@@ -1,0 +1,59 @@
+.btn-custom {
+  background-color: transparent !important;
+    border: none !important;
+  border-radius: 50% !important;
+  margin: 2px;
+  }
+  .custom-table {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+    /* background-color: white; */
+    background-color: #c1bca183;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  overflow: hidden;
+    
+  }
+.custom-table th,
+.custom-table td {
+  border: none;
+  
+}
+td{
+  background-color: transparent !important;
+  color:white !important;
+}
+.custom-table th{
+ height: 45px;
+}
+.custom-table thead {
+ border-bottom: 2px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) inset;
+ border-top: 0px !important;
+ border-color: #b96c7b !important;
+}
+
+
+ th{
+  /* background-color: #b96c7b!important; */
+  background-color: transparent !important;
+  color:white !important;
+  height: 60px !important;
+  /* color: white !important; */
+  font-size: large !important;
+  text-transform: uppercase !important;
+  font-weight: 600;
+  /* border-radius: 50%; */
+ }
+th:hover{
+  background-color: transparent !important;
+}
+ .with-border-radius {
+  border-radius: 50% !important;
+}
+#CardBackIMg{
+    background-color: #c1bca183;
+    color: white ;
+  }
+  /* #CardBackIMg:hover{
+    background-color: #c1bca183;
+    color: white ;
+  } */

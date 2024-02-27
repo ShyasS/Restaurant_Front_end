@@ -1,0 +1,57 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .modal {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .modal-header, .modal-body, .modal-footer {
+    margin-bottom: 20px;
+  }
+  
+  .modal-header h2, .modal-body h2 {
+    margin-bottom: 10px;
+  }
+  .date-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    cursor: pointer;
+  }
+  
+  .date-buttons button:hover {
+    background-color: #e7e7e7;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-footer button {
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #ff9400;
+  }
+    

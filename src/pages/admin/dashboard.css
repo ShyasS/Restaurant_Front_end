@@ -1,0 +1,74 @@
+#CardBackIMg{
+    background-color: #908e8583;
+    color: white;
+  }
+
+  .dashboardMainImg{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/Bg5.jpg');
+    width: 100%;
+    height:90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#Menu{
+  background-image: url('../../assets/img/Bg5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#Menu:hover{
+  background-image: url('../../assets/img/Bg6.jpg');
+  transition: 0.8s ease;
+}
+
+#Order{
+  background-image: url('../../assets/img/Bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#Order:hover{
+  background-image: url('../../assets/img/Bg3.jpg');
+  transition: 0.8s ease;
+}
+
+#Users{
+  background-image: url('../../assets/img/Bg7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#Users:hover{
+  background-image: url('../../assets/img/Bg8.jpg');
+  transition: 0.8s ease;
+}
+
+#Restaurants{
+  background-image: url('../../assets/img/pexels-igor-starkov-1055058.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#Restaurants:hover{
+  background-image: url('../../assets/img/Bg6.jpg');
+  transition: 0.8s ease;
+}
+
+
+
+
+@media screen and (min-width:260px) and (max-width:575px){
+  .dashboardMainImg{
+    height:170vh;
+  }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:1200px){
+  .dashboardMainImg{
+    height:120vh;
+  }
+}

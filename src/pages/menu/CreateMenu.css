@@ -1,0 +1,15 @@
+.CreateMenu{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../assets/img/Bg5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+input[type="text"] {
+background-color: transparent;
+color:white;
+}
+
+.form-control{
+    background-color: transparent;
+    color:white;
+}

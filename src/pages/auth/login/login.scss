@@ -1,0 +1,107 @@
+SignUpForm.js 
+
+
+
+.signup-form-container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.signup-form-container h2 {
+  text-align: center;
+}
+
+.signup-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form-container input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form-container button {
+  padding: 10px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.signup-form-container button:hover {
+    background-color: #ff9400;
+  }
+  
+  .signup-form-container a {
+    color: #0000EE; 
+    text-decoration: none;
+  }
+  
+  .signup-form-container a:hover {
+    text-decoration: underline;
+  }
+  
+.guest-button {
+  padding: 10px;
+  width: 100%;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+#LoginMainImg{
+  background-image:url('../../../assets/img/Bg2.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#LoginImg{
+  // background-image:linear-gradient(rgba(0,0,0,0.7), rgba(108, 87, 87, 0.7)), url('../../../assets/img/dark-gradient-background-with-copy-space_53876-99548.avif');;
+  background-color: #c1bca183;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Btn{
+color:black
+}
+
+#ForgetPMainImg{
+  background-image:url('../../../assets/img/Bg8.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#ForgetImg{
+  background-color: #766f6f99;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#ProfileMainImg{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(35, 35, 35, 0.7)), url('../../../assets/img/Bg5.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#ForgetImg{
+  background-color: #766f6f99;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
